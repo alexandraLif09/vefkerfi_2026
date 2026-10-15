@@ -13,8 +13,8 @@
     FR-07: Notandi getur breytt um einn leik fyrir annan.
 ## Non-functional requirements
     NFR-01: kerfið á að láta leitarniðurstöðurnar og samanburðinn sjást á minna en einni sekúndu þegar.
-    NFR-02: Kerfið á að geta stiðið bæði mobile notendur og tölfu notendur.
-    NFR-03: Ef að kerfið finnur ekki mynd fyrir leik eða ún hlaðar ekki inn þá á kerfið að nota placeholder mynd.
+    NFR-02: Kerfið á að geta styðið bæði mobile notendur og tölvu notendur.
+    NFR-03: Ef að kerfið finnur ekki mynd fyrir leik eða hún hlaðar ekki inn þá á kerfið að nota placeholder mynd.
     NFR-04: Noandi á að geta notað tab takkann og enter takkann á lyklaborðinu sínu til að velja leik.
 ## User stories
     US-01: Sem leikjaáhugamaður vil ég geta valið tvo leiki og borið þá saman svo að ég sjái fljótt muninn á útgáfuári, kynslóð og genre án þess að þurfa að googla báða leikina.
@@ -37,4 +37,10 @@
     Acceptance criteria
         [] Í síma raðast allt snyrtilega og enginn texti eða mynd rekst á hvort annað.
         [] Í síma passa tveir hlutir hlið við hlið án þess að þurfa að skrolla til hliðar til að sjá eitthvað. 
-## Open questions
+
+## Traceability
+    | User story | Issues |
+    |------------|--------|
+    | US-01 | #5, #7 |
+    | US-02 | #2     |
+    | US-03 | #9     |
